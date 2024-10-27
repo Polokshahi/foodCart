@@ -1,0 +1,99 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_name": "Spicy Thai Noodles",
+      "recipe_image": "https://i.ytimg.com/vi/6-1-sEW_6ko/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB5eaEzC3klK_KNz2hF5cQr2QRHww",
+      "short_description": "A quick and easy spicy Thai noodle dish with a hint of sweetness.",
+      "ingredients": [
+        "Rice noodles",
+        "Peanut butter",
+        "Soy sauce",
+        "Lime juice",
+        "Red pepper flakes",
+        "Green onions",
+        "Peanuts"
+      ],
+      "preparing_time": "20 minutes",
+      "calories": 450
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "Classic Margherita Pizza",
+      "recipe_image": "https://t3.ftcdn.net/jpg/06/10/03/82/360_F_610038219_jVhQanmTK0WUw2NO0lPhQBUqdQiLzTOs.jpg",
+      "short_description": "An Italian-style pizza with fresh basil, mozzarella, and tomatoes.",
+      "ingredients": [
+        "Pizza dough",
+        "Tomato sauce",
+        "Fresh mozzarella",
+        "Fresh basil",
+        "Olive oil",
+        "Salt"
+      ],
+      "preparing_time": "30 minutes",
+      "calories": 700
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Avocado Toast",
+      "recipe_image": "https://t3.ftcdn.net/jpg/06/10/03/82/360_F_610038219_jVhQanmTK0WUw2NO0lPhQBUqdQiLzTOs.jpg",
+      "short_description": "Creamy avocado spread over whole-grain toast, topped with seeds.",
+      "ingredients": [
+        "Whole-grain bread",
+        "Avocado",
+        "Lemon juice",
+        "Salt",
+        "Pepper",
+        "Sesame seeds"
+      ],
+      "preparing_time": "10 minutes",
+      "calories": 250
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Chicken Caesar Salad",
+      "recipe_image": "https://t3.ftcdn.net/jpg/06/10/03/82/360_F_610038219_jVhQanmTK0WUw2NO0lPhQBUqdQiLzTOs.jpg",
+      "short_description": "A refreshing salad with romaine lettuce, chicken, croutons, and Caesar dressing.",
+      "ingredients": [
+        "Romaine lettuce",
+        "Grilled chicken",
+        "Parmesan cheese",
+        "Croutons",
+        "Caesar dressing"
+      ],
+      "preparing_time": "15 minutes",
+      "calories": 350
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Beef Tacos",
+      "recipe_image": "https://t3.ftcdn.net/jpg/06/10/03/82/360_F_610038219_jVhQanmTK0WUw2NO0lPhQBUqdQiLzTOs.jpg",
+      "short_description": "Savory ground beef tacos topped with cheese and fresh vegetables.",
+      "ingredients": [
+        "Ground beef",
+        "Taco seasoning",
+        "Tortillas",
+        "Cheddar cheese",
+        "Lettuce",
+        "Tomatoes",
+        "Sour cream"
+      ],
+      "preparing_time": "20 minutes",
+      "calories": 500
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Berry Smoothie",
+      "recipe_image": "https://t3.ftcdn.net/jpg/06/10/03/82/360_F_610038219_jVhQanmTK0WUw2NO0lPhQBUqdQiLzTOs.jpg",
+      "short_description": "A refreshing smoothie made with mixed berries, yogurt, and honey.",
+      "ingredients": [
+        "Mixed berries",
+        "Greek yogurt",
+        "Honey",
+        "Banana",
+        "Almond milk"
+      ],
+      "preparing_time": "5 minutes",
+      "calories": 200
+    }
+  ]
+  
