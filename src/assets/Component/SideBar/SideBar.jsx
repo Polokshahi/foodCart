@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 const SideBar = ({recipeQueue,calculateTimeandCalorise, preparedRecipe, handleRemove, caloriess, times}) => {
    
     return (
-        <div className="w-1/3 border-2 rounded-2xl text-gray-600 p-2 bg-base-100">
+        <div className="md:w-1/3 w-full border-2 rounded-2xl text-gray-600 p-2 bg-base-100 md:mb-6 mb-[400px]">
             {/* Want to cook */}
 
 

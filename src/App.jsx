@@ -7,6 +7,7 @@ import Recipes from './assets/Component/Recipes/Recipes'
 import SideBar from './assets/Component/SideBar/SideBar'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import OurRecive from './assets/Component/OuerRecipe/OurRecive'
 
 function App() {
 
@@ -61,27 +62,35 @@ function App() {
       <Header></Header>
       <Hero></Hero>
 
+      <OurRecive></OurRecive>
 
-      <div className='flex flex-col md:flex-row gap-6 mt-9'>
-    <Recipes ToastContainer={ToastContainer} addRecipeToQueue={addRecipeToQueue}></Recipes>
+
+      <div className='lg:flex  md:flex-row gap-6 mt-9'>
+    <Recipes 
+    ToastContainer={ToastContainer} 
+    addRecipeToQueue={addRecipeToQueue}>
+
+    </Recipes>
+
+    
     <SideBar
 
-    // Props delling
+// Props delling
 
-     calculateTimeandCalorise={calculateTimeandCalorise}
-      preparedRecipe={preparedRecipe}
-      handleRemove={handleRemove}
-      recipeQueue={recipeQueue}
-      times={times}
-      caloriess={caloriess}
-      
-      
-      >
-     
-     </SideBar>
+ calculateTimeandCalorise={calculateTimeandCalorise}
+  preparedRecipe={preparedRecipe}
+  handleRemove={handleRemove}
+  recipeQueue={recipeQueue}
+  times={times}
+  caloriess={caloriess}
+  
+  
+  >
+ 
+ </SideBar>
+    </div>
    </div>
     </div>    
-   </div>
   )
 }
 

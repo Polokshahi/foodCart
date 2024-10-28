@@ -10,26 +10,26 @@ const Recipes = ({addRecipeToQueue, ToastContainer}) => {
     const [recipes, setRecipes] =useState([]);
 
     useEffect(() => {
-        fetch('../../../../public/fakeData.json')
+        fetch('./public/fakeData.json')
         .then(res=>res.json())
         .then(data => setRecipes(data))
     },[])
     return (
-        <div className="w-2/3">
+        <div className="w-2/3 mx-16 lg:mx-0">
            
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div className="grid  grid-cols-1 lg:grid-cols-2 gap-6 mb-5">
 
             {
                 recipes.map(recipe => 
 
 
-            <div key={recipe.recipe_id} className="card border-2 bg-base-100 shadow-xl">
+            <div key={recipe.recipe_id} className="card border-2  bg-base-100 shadow-xl">
             <figure className="p-4">
                 <img
-                className="rounded-xl h-[200px] w-[300px] border-2"
+                className="rounded-xl lg:h-[200px] lg:w-[300px] border-2"
                 src={recipe.recipe_image}
-                alt="Shoes" />
+                alt="recipe/item" />
             </figure>
             <div className="card-body">
                 <h2 className="card-title text-lg text-gray-800 font-medium">{recipe.recipe_name}!</h2>
@@ -50,14 +50,14 @@ const Recipes = ({addRecipeToQueue, ToastContainer}) => {
                     <div className="flex items-center gap-1">
 
                         <IoTimeOutline className="text-xl"></IoTimeOutline>
-                        <p>{recipe.preparing_time} minutes</p>
+                        <p className="md:text-base text-[14px]">{recipe.preparing_time} minutes</p>
                    
                     </div>
 
 
                     <div className="flex items-center gap-1">
                         <FaFireFlameCurved></FaFireFlameCurved>
-                        <p>{recipe.calories} calories</p>
+                        <p className="md:text-base text-[14px]">{recipe.calories} calories</p>
                     </div>
 
                 </div>
