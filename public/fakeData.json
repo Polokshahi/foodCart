@@ -13,7 +13,7 @@
         "Green onions",
         "Peanuts"
       ],
-      "preparing_time": "20 minutes",
+      "preparing_time": "20",
       "calories": 450
     },
     {
@@ -29,7 +29,7 @@
         "Olive oil",
         "Salt"
       ],
-      "preparing_time": "30 minutes",
+      "preparing_time": "30",
       "calories": 700
     },
     {
@@ -45,7 +45,7 @@
         "Pepper",
         "Sesame seeds"
       ],
-      "preparing_time": "10 minutes",
+      "preparing_time": "10",
       "calories": 250
     },
     {
@@ -60,7 +60,7 @@
         "Croutons",
         "Caesar dressing"
       ],
-      "preparing_time": "15 minutes",
+      "preparing_time": "15",
       "calories": 350
     },
     {
@@ -77,7 +77,7 @@
         "Tomatoes",
         "Sour cream"
       ],
-      "preparing_time": "20 minutes",
+      "preparing_time": "20",
       "calories": 500
     },
     {
@@ -92,7 +92,7 @@
         "Banana",
         "Almond milk"
       ],
-      "preparing_time": "5 minutes",
+      "preparing_time": "5",
       "calories": 200
     }
   ]

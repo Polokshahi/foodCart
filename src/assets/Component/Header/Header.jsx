@@ -4,7 +4,7 @@ const Header = () => {
         <div className="flex justify-between items-center mt-5">
 
         <div>
-          <h1 className="text-3xl">Recipe Calories</h1>
+          <h1 className="text-3xl font-extrabold">Recipe Calories</h1>
         </div>
 
         <div className="flex justify-center">
