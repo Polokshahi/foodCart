@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 const SideBar = ({recipeQueue,calculateTimeandCalorise, preparedRecipe, handleRemove, caloriess, times}) => {
    
     return (
@@ -106,5 +106,14 @@ const SideBar = ({recipeQueue,calculateTimeandCalorise, preparedRecipe, handleRe
         </div>
     );
 };
+
+SideBar.propTypes = {
+    recipeQueue: PropTypes.array.isRequired,
+    calculateTimeandCalorise: PropTypes.func.isRequired,
+    preparedRecipe: PropTypes.array.isRequired,
+    handleRemove: PropTypes.func.isRequired,
+    caloriess: PropTypes.number.isRequired,
+    times: PropTypes.number.isRequired,
+}
 
 export default SideBar;

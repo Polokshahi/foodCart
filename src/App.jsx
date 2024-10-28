@@ -52,8 +52,6 @@ function App() {
    
 
   }
-
-  console.log(recipeQueue);
  
 
   return (
@@ -67,9 +65,12 @@ function App() {
       <div className='flex flex-col md:flex-row gap-6 mt-9'>
     <Recipes ToastContainer={ToastContainer} addRecipeToQueue={addRecipeToQueue}></Recipes>
     <SideBar
+
+    // Props delling
+
      calculateTimeandCalorise={calculateTimeandCalorise}
       preparedRecipe={preparedRecipe}
-       handleRemove={handleRemove}
+      handleRemove={handleRemove}
       recipeQueue={recipeQueue}
       times={times}
       caloriess={caloriess}
@@ -77,19 +78,9 @@ function App() {
       
       >
      
-
      </SideBar>
    </div>
-
-
-
-
-
-    </div>
-
-
-  
-         
+    </div>    
    </div>
   )
 }

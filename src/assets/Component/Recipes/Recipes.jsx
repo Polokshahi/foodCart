@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { IoTimeOutline } from "react-icons/io5";
 import { FaFireFlameCurved } from "react-icons/fa6";
+import PropTypes from 'prop-types';
 
 
 
@@ -83,5 +84,10 @@ const Recipes = ({addRecipeToQueue, ToastContainer}) => {
         </div>
     );
 };
+
+Recipes.propTypes = {
+    addRecipeToQueue: PropTypes.func.isRequired,
+    ToastContainer: PropTypes.func.isRequired,
+}
 
 export default Recipes;
