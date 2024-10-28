@@ -19,7 +19,7 @@
     {
       "recipe_id": 2,
       "recipe_name": "Classic Margherita Pizza",
-      "recipe_image": "https://t3.ftcdn.net/jpg/06/10/03/82/360_F_610038219_jVhQanmTK0WUw2NO0lPhQBUqdQiLzTOs.jpg",
+      "recipe_image": "https://media.istockphoto.com/id/184946701/photo/pizza.jpg?s=612x612&w=0&k=20&c=97rc0VIi-s3mn4xe4xDy9S-XJ_Ohbn92XaEMaiID_eY=",
       "short_description": "An Italian-style pizza with fresh basil, mozzarella, and tomatoes.",
       "ingredients": [
         "Pizza dough",
@@ -35,7 +35,7 @@
     {
       "recipe_id": 3,
       "recipe_name": "Avocado Toast",
-      "recipe_image": "https://t3.ftcdn.net/jpg/06/10/03/82/360_F_610038219_jVhQanmTK0WUw2NO0lPhQBUqdQiLzTOs.jpg",
+      "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1qpAwkqVsDHBWlk4IZq12NeLjDUIoDbt6OA&s",
       "short_description": "Creamy avocado spread over whole-grain toast, topped with seeds.",
       "ingredients": [
         "Whole-grain bread",
@@ -51,7 +51,7 @@
     {
       "recipe_id": 4,
       "recipe_name": "Chicken Caesar Salad",
-      "recipe_image": "https://t3.ftcdn.net/jpg/06/10/03/82/360_F_610038219_jVhQanmTK0WUw2NO0lPhQBUqdQiLzTOs.jpg",
+      "recipe_image": "https://www.shutterstock.com/image-photo/closeup-caesar-salad-grilled-chicken-600nw-2511127023.jpg",
       "short_description": "A refreshing salad with romaine lettuce, chicken, croutons, and Caesar dressing.",
       "ingredients": [
         "Romaine lettuce",
@@ -66,7 +66,7 @@
     {
       "recipe_id": 5,
       "recipe_name": "Beef Tacos",
-      "recipe_image": "https://t3.ftcdn.net/jpg/06/10/03/82/360_F_610038219_jVhQanmTK0WUw2NO0lPhQBUqdQiLzTOs.jpg",
+      "recipe_image": "https://media.istockphoto.com/id/1226707458/photo/baked-oven-beef-taco.jpg?s=612x612&w=0&k=20&c=T32nCqCF8iUjPmB8j_nFbnqiYZCASM0oRRKvT_2BxoA=",
       "short_description": "Savory ground beef tacos topped with cheese and fresh vegetables.",
       "ingredients": [
         "Ground beef",
@@ -83,7 +83,7 @@
     {
       "recipe_id": 6,
       "recipe_name": "Berry Smoothie",
-      "recipe_image": "https://t3.ftcdn.net/jpg/06/10/03/82/360_F_610038219_jVhQanmTK0WUw2NO0lPhQBUqdQiLzTOs.jpg",
+      "recipe_image": "https://img.freepik.com/premium-photo/berry-burst-smoothie-table-with-kitchen-background-photo-realistic-4k-resolution-ai-generated_29654-3980.jpg",
       "short_description": "A refreshing smoothie made with mixed berries, yogurt, and honey.",
       "ingredients": [
         "Mixed berries",

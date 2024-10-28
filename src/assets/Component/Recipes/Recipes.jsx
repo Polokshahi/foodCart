@@ -27,7 +27,7 @@ const Recipes = ({addRecipeToQueue, ToastContainer}) => {
             <div key={recipe.recipe_id} className="card border-2 bg-base-100 shadow-xl">
             <figure className="p-4">
                 <img
-                className="rounded-xl"
+                className="rounded-xl h-[200px] w-[300px] border-2"
                 src={recipe.recipe_image}
                 alt="Shoes" />
             </figure>
