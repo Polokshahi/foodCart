@@ -10,7 +10,7 @@ const Recipes = ({addRecipeToQueue, ToastContainer}) => {
     const [recipes, setRecipes] =useState([]);
 
     useEffect(() => {
-        fetch('./public/fakeData.json')
+        fetch('../../../../public/fakeData.json')
         .then(res=>res.json())
         .then(data => setRecipes(data))
     },[])
